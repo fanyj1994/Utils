@@ -15,3 +15,10 @@
  - 为父元素设置 float 属性，触发 BFC, 缺点：影响与父元素相邻的元素；
  - 为父元素设置 `display: table;`, 缺点：改变盒模型属性
  
+### 一行文本过长截断处理，并显示...截断符号`
+``` CSS
+text-overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+width: 200px;
+```
